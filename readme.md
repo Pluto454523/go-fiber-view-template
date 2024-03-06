@@ -1,13 +1,20 @@
-# **GO-FIBER-CRUD-EXAMPLE**
+# **GO-FIBER-VIEW-TEMPLATE**
 
 Ref: https://docs.gofiber.io/guide/templates
 
-### install nodemon
+### install ☁️ Air - Live reload for Go apps.
 ```bash
-npm i -g nodemon
+go install github.com/cosmtrek/air@latest
 ```
 
-### Run go with nodemon
-```bash
-nodemon --exec go run main.go --signal SIGTERM
+### Which a commands to run with envoriments.
+
+## Window command.
+```shell
+./run.bat
+```
+
+## Unix command.
+```shell
+./run.sh
 ```
